@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    transition: 0.2s;
+    transform: scale(3);
+    border-radius: 20%;
+}
+
+img:hover{
+transform: scale(10);
+}
